@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+}
+
+#app {
+  width: 1000px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
