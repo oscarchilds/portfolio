@@ -42,8 +42,14 @@ import ProfilePicture from '@/assets/profile-picture.jpeg'
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 3em;
   }
 }
 </style>

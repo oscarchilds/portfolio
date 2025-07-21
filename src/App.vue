@@ -19,7 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <style scoped lang="scss">
 nav {
-  display: flex;
+  display: none;
   justify-content: center;
   flex-direction: column;
   align-items: flex-end;
@@ -42,10 +42,10 @@ nav {
 }
 
 #splitter {
+  display: none;
   width: 2px;
   background-color: #a5a5a5;
   height: 90vh;
-  margin-right: 50px;
   flex-shrink: 0;
 }
 
@@ -55,8 +55,19 @@ nav {
   overflow-y: auto;
 
   .view {
-    width: 800px;
-    padding: 35px 0;
+    max-width: 800px;
+    padding: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    margin-left: 50px;
+  }
+
+  #splitter {
+    display: block;
   }
 }
 </style>

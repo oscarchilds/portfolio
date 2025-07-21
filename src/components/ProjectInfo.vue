@@ -14,12 +14,14 @@ h2 {
 .project-images {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 
   :deep(img) {
     width: 300px;
     margin-top: 20px;
     height: auto;
     border-radius: 10px;
+    border: 1px solid rgba(215, 213, 213, 0.477);
   }
 }
 </style>
