@@ -7,16 +7,19 @@
 </template>
 
 <style lang="scss" scoped>
+h2 {
+  margin-bottom: 0;
+}
+
 .project-images {
   display: flex;
   gap: 20px;
-  margin-bottom: 20px;
 
   :deep(img) {
     width: 300px;
+    margin-top: 20px;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 }
 </style>

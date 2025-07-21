@@ -1,8 +1,15 @@
+<script setup lang="ts">
+import ProfilePicture from '@/assets/profile-picture.jpeg'
+</script>
+
 <template>
-  <h1>Hi, my name is Oscar Childs</h1>
+  <div class="header">
+    <img :src="ProfilePicture" alt="profile picture" />
+    <h1>Hi, my name is Oscar Childs</h1>
+  </div>
   <p>I am a Software Developer based in South Derbyshire, UK.</p>
   <p>
-    I am a Full Stack developer with 6+ years of commercial experience. My main strengths are
+    I am a Full Stack Developer with 6+ years of commercial experience. My main strengths are
     C#/.NET, VueJS, Typescript, SQL Server, creating public and private resuable code libraries via
     Nuget or NPM, and creating Azure infrastructre and CI/CD pipelines. I also have some experience
     with Java and Blazor.
@@ -23,8 +30,20 @@
 </template>
 
 <style scoped lang="scss">
-h1 {
-  font-size: 3em;
-  margin-bottom: 0.5em;
+.header {
+  display: flex;
+  gap: 35px;
+  align-items: center;
+
+  img {
+    flex-shrink: 0;
+    width: 100px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }
 }
 </style>

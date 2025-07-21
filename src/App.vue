@@ -26,7 +26,7 @@ nav {
   width: 150px;
   gap: 15px;
   flex-shrink: 0;
-  width: 35%;
+  width: 25%;
 
   a {
     text-decoration: none;
