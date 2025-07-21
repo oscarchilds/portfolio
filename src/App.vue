@@ -23,10 +23,11 @@ nav {
   flex-shrink: 0;
 
   a {
-    color: black;
     text-decoration: none;
     margin-right: 10px;
     font-size: 1.5em;
+    width: fit-content;
+    font-weight: normal;
 
     &.router-link-active {
       font-weight: bold;
