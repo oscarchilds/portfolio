@@ -14,4 +14,5 @@ import PortfolioSite from '@/components/projects/PortfolioSite.vue'
   <DesktopPortfolio />
   <hr />
   <PortfolioSite />
+  <RouterLink to="/">Back to Homepage</RouterLink>
 </template>
