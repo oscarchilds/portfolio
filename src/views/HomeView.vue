@@ -24,8 +24,8 @@ import ProfilePicture from '@/assets/profile-picture.jpeg'
     <a href="https://www.linkedin.com/in/oscar-childs-4b5843146/" target="_blank">LinkedIn</a>.
   </p>
   <p>
-    I am a husband and father of two, and I enjoy spending my free time with my family as much as I
-    can, as well as playing video games or watching films or motor racing.
+    Outside of coding, I'm a husband and father of two. I enjoy spending quality time with my
+    family, as well as relaxing with video games, films, or watching F1.
   </p>
 </template>
 
