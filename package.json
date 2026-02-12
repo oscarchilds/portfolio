@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -13,25 +13,25 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.5.17",
+    "vue": "^3.5.28",
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
     "@types/node": "^24.2.0",
-    "@vitejs/plugin-vue": "^6.0.0",
+    "@vitejs/plugin-vue": "^6.0.4",
     "@vue/eslint-config-prettier": "^10.2.0",
-    "@vue/eslint-config-typescript": "^14.5.1",
-    "@vue/tsconfig": "^0.7.0",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/tsconfig": "^0.8.1",
     "eslint": "^9.29.0",
-    "eslint-plugin-vue": "^10.4.0",
-    "jiti": "^2.4.2",
+    "eslint-plugin-vue": "^10.7.0",
+    "jiti": "^2.6.1",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.6.2",
-    "sass-embedded": "^1.89.2",
-    "typescript": "^5.9.2",
-    "vite": "^7.0.0",
+    "prettier": "^3.8.1",
+    "sass-embedded": "^1.97.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
     "vite-plugin-vue-devtools": "^8.0.6",
-    "vue-tsc": "^3.0.5"
+    "vue-tsc": "^3.2.4"
   }
 }
