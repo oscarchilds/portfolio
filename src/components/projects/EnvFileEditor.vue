@@ -25,10 +25,6 @@ import EnvFileEditorCode from '@/assets/env-file-editor-code.webp'
         suprised to find that there wasn't already a library that made this easy to do.
       </p>
       <p>
-        The library is currently in a pre-release stage but is feature complete, and I look forward
-        to finishing it off soon and publishing the first production-ready version.
-      </p>
-      <p>
         Visit the project on
         <a href="https://www.npmjs.com/package/env-file-editor" target="_blank">npm</a> or
         <a href="https://github.com/oscarchilds/env-file-editor" target="_blank">GitHub</a>

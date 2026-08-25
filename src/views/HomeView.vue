@@ -9,10 +9,9 @@ import ProfilePicture from '@/assets/profile-picture.jpeg'
   </div>
   <p>I am a Software Developer based in South Derbyshire, UK.</p>
   <p>
-    I am a Full Stack Developer with 6+ years of commercial experience. My main strengths are
-    C#/.NET, VueJS, Typescript, SQL Server, creating public and private resuable code libraries via
-    Nuget or NPM, and creating Azure infrastructre and CI/CD pipelines. I also have some experience
-    with Java and Blazor.
+    I am a Full Stack Developer with 7+ years of commercial experience. I'm interested in C#/.NET,
+    VueJS, Typescript, creating public and private resuable code libraries via Nuget or NPM,
+    creating cloud infrastructre and improving developer experience through continous integration.
   </p>
   <p>
     Outside of work, I've worked on a couple of small personal projects, which you can find on the
